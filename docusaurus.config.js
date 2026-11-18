@@ -9,14 +9,14 @@ const config = {
   favicon: 'https://gamets.caellab.com/gpcl/icon.png',
 
   // 文档站挂在官网的路径下（/gpcl/docs/）。启动器里的帮助地址写死在这个路径上，
-  // 改 baseUrl 时要把 renderer/index.html 和 src/renderer/*.ts 里的链接一起改。
+  // 改 baseUrl 时要把启动器仓库里的 renderer/index.html 和 src/renderer/*.ts 里的链接一起改。
   // 旧的 /gpcl/help/ 由 nginx 永久重定向到这里，老版本启动器还指着它。
   url: 'https://gamets.caellab.com',
   baseUrl: '/gpcl/docs/',
   trailingSlash: true,
 
-  organizationName: 'CaelLab',
-  projectName: 'GoodPlanCraftLauncher',
+  organizationName: 'CaelLab-org',
+  projectName: 'GPCL-docs',
 
   onBrokenLinks: 'throw',
 
